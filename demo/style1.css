@@ -1,0 +1,189 @@
+                                                                                        body {
+                                                                                        padding: 0;
+                                                                                        margin: 0 auto;
+                                                                                    }
+                                                                                    
+                                                                                    .header {
+                                                                                        background-image: url("./images/anh1.png");
+                                                                                        background-size: cover;
+                                                                                        height: 700px;
+                                                                                    }
+                                                                                    
+                                                                                    .header ul li {
+                                                                                        padding: 17px 20px;
+                                                                                        list-style: none;
+                                                                                    }
+                                                                                    
+                                                                                    .header .header-1>ul {
+                                                                                        display: flex;
+                                                                                        flex-direction: row;
+                                                                                    }
+                                                                                    
+                                                                                    #aboutus {
+                                                                                        text-decoration: none;
+                                                                                        margin-left: 1000px;
+                                                                                    }
+                                                                                    
+                                                                                    #signin {
+                                                                                        border-color: #8bc34a;
+                                                                                        padding: 6px;
+                                                                                        font-family: "Roboto-Regular";
+                                                                                        font-size: 12px;
+                                                                                        border-radius: 15px;
+                                                                                        border: solid;
+                                                                                        margin-left: 1100px;
+                                                                                        background-color: #8bc34a;
+                                                                                        width: 70px;
+                                                                                        text-align: center;
+                                                                                        margin-top: -41px;
+                                                                                    }
+                                                                                    
+                                                                                    .logo {
+                                                                                        background-image: url("./images/anh2.png");
+                                                                                        height: 150px;
+                                                                                        background-repeat: no-repeat;
+                                                                                        margin-left: 600px;
+                                                                                        margin-top: 160px;
+                                                                                        background-size: 29%;
+                                                                                    }
+                                                                                    
+                                                                                    #feature,
+                                                                                    #icon {
+                                                                                        display: flex;
+                                                                                        flex-direction: row;
+                                                                                        margin: -43px 0px 7px 345px;
+                                                                                        font-size: 45px;
+                                                                                    }
+                                                                                    
+                                                                                    #feature .better {
+                                                                                        margin: -2px -3px 20px 3px;
+                                                                                    }
+                                                                                    
+                                                                                    #feature .faster {
+                                                                                        margin: -1px -1px 21px 94px;
+                                                                                    }
+                                                                                    
+                                                                                    #feature .together {
+                                                                                        margin: -2px 0px 21px 78px;
+                                                                                    }
+                                                                                    
+                                                                                    #icon li {
+                                                                                        margin-left: 110px;
+                                                                                    }
+                                                                                    
+                                                                                    .header-2 {
+                                                                                        font-size: 15px;
+                                                                                        margin-left: 517px;
+                                                                                        margin-top: 6px;
+                                                                                        margin-bottom: 2px;
+                                                                                    }
+                                                                                    
+                                                                                    .header-3 {
+                                                                                        color: white;
+                                                                                        border: solid;
+                                                                                        border-color: #8bc34a;
+                                                                                        background-color: #8bc34a;
+                                                                                        width: 170px;
+                                                                                        font-size: 23px;
+                                                                                        border-radius: 30px;
+                                                                                        padding: 2px;
+                                                                                        margin-left: 600px;
+                                                                                        margin-top: 15px;
+                                                                                        text-align: center;
+                                                                                    }
+                                                                                    
+                                                                                    .content-1 {
+                                                                                        display: flex;
+                                                                                        flex-direction: row;
+                                                                                    }
+                                                                                    
+                                                                                    .content-1 .img {
+                                                                                        background-image: url("./images/anh3.png");
+                                                                                        height: 371px;
+                                                                                        width: 555px;
+                                                                                        background-repeat: no-repeat;
+                                                                                        margin-left: 112px;
+                                                                                        margin-top: 48px;
+                                                                                        margin-bottom: 100px;
+                                                                                    }
+                                                                                    
+                                                                                    .content-1 .text {
+                                                                                        margin-top: -8px;
+                                                                                    }
+                                                                                    
+                                                                                    .content-1 .text #text1 {
+                                                                                        font-size: 48px;
+                                                                                        margin-right: 234px;
+                                                                                        padding-left: 63px;
+                                                                                    }
+                                                                                    
+                                                                                    .content-1 .text #text2 {
+                                                                                        margin-top: 31px;
+                                                                                        font-size: 14px;
+                                                                                        padding-left: 70px;
+                                                                                        margin-left: -44px;
+                                                                                    }
+                                                                                    
+                                                                                    .content-1 .text #text3 {
+                                                                                        font-size: 13px;
+                                                                                        margin-left: 25px;
+                                                                                        line-height: 1.5;
+                                                                                    }
+                                                                                    
+                                                                                    .btn1 {
+                                                                                        color: white;
+                                                                                        border: solid;
+                                                                                        border-color: #8bc34a;
+                                                                                        background-color: #8bc34a;
+                                                                                        width: 90px;
+                                                                                        font-size: 15px;
+                                                                                        border-radius: 30px;
+                                                                                        padding: 17px 33px;
+                                                                                        margin-left: 59px;
+                                                                                    }
+                                                                                    
+                                                                                    .content-2 {
+                                                                                        display: flex;
+                                                                                        flex-direction: row;
+                                                                                    }
+                                                                                    
+                                                                                    .content-2 .img2 {
+                                                                                        background-image: url("./images/anh4.png");
+                                                                                        height: 379px;
+                                                                                        width: 3481px;
+                                                                                        background-repeat: no-repeat;
+                                                                                    }
+                                                                                    
+                                                                                    .content-2 .right {
+                                                                                        margin-left: 79px;
+                                                                                        margin-top: -55px;
+                                                                                    }
+                                                                                    
+                                                                                    .content-2 .right #right1 {
+                                                                                        margin-right: 244px;
+                                                                                        padding-left: 70px;
+                                                                                        font-size: 48px;
+                                                                                    }
+                                                                                    
+                                                                                    .content-2 .right #right2 {
+                                                                                        margin-bottom: 28px;
+                                                                                        margin-top: 31px;
+                                                                                        font-size: 14px;
+                                                                                        margin-left: 30px;
+                                                                                    }
+                                                                                    
+                                                                                    .content-2 .right #right3 {
+                                                                                        font-size: 13px;
+                                                                                        line-height: 1.5;
+                                                                                    }
+                                                                                    
+                                                                                    .btn2 {
+                                                                                        color: white;
+                                                                                        border: solid;
+                                                                                        border-color: #8bc34a;
+                                                                                        background-color: #8bc34a;
+                                                                                        width: 90px;
+                                                                                        font-size: 15px;
+                                                                                        border-radius: 30px;
+                                                                                        padding: 17px 33px;
+                                                                                        margin-left: 59px;
