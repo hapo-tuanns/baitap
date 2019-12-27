@@ -1,0 +1,415 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.header {
+    background-image: url("./images/background-header.png");
+    background-size: cover;
+    height: 700px;
+}
+
+.header-top {
+    margin-top: 0px;
+    padding: 40px 0px 0px 55px;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.signin {
+    border: 1px solid #8bc34a;
+    border-radius: 20px;
+    width: 55px;
+    height: 16px;
+    color: #8bc34a;
+    padding: 7px;
+    margin-left: 26px;
+    font: bold 12px Roboto-Rengular;
+    text-align: center;
+}
+
+.aboutus {
+    margin-left: 1010px;
+    font: bold 12px Roboto-Regular;
+}
+
+.logo {
+    background-image: url("./images/logo-hapo.png");
+    height: 125px;
+    background-repeat: no-repeat;
+    margin-left: 600px;
+    margin-top: 135px;
+    background-size: 35%;
+}
+
+.icon-of-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+
+.icon-of-header .icon-question-first {
+    margin-left: 367px;
+    font-size: 49px;
+}
+
+.icon-of-header .icon-question-second {
+    margin-left: 240px;
+    font-size: 49px;
+}
+
+.icon-of-header .icon-question-third {
+    margin-left: 220px;
+    font-size: 49px;
+}
+
+.better {
+    margin-left: 370px;
+    font: 30px Roboto-Light;
+}
+
+.faster {
+    margin-left: 180px;
+    font: 30px Roboto-Light;
+}
+
+.together {
+    margin-left: 165px;
+    font: 30px Roboto-Light;
+}
+
+.header-text {
+    font-size: 15px;
+    margin-left: 470px;
+}
+
+.header-btn {
+    color: white;
+    border: solid;
+    border-color: #8bc34a;
+    background-color: #8bc34a;
+    width: 170px;
+    font-size: 23px;
+    border-radius: 30px;
+    padding: 2px;
+    margin-left: 600px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.content-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-one .interface-one {
+    background-image: url("./images/interface-one.png");
+    height: 371px;
+    width: 555px;
+    background-repeat: no-repeat;
+    margin-left: 112px;
+    margin-top: 48px;
+    margin-bottom: 100px;
+}
+
+.content-one .text {
+    margin-top: -8px;
+}
+
+.content-one .text .text-one {
+    font-size: 48px;
+    margin-right: 234px;
+    padding-left: 63px;
+}
+
+.content-one .text .text-two {
+    margin-top: 31px;
+    font-size: 14px;
+    padding-left: 70px;
+    margin-left: -44px;
+}
+
+.content-one .text .text-three {
+    font-size: 13px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.btn-one {
+    color: white;
+    border: solid;
+    border-color: #8bc34a;
+    background-color: #8bc34a;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 17px 33px;
+    margin-left: 59px;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-two .interface-two {
+    background-image: url("./images/interface-two.png");
+    height: 379px;
+    width: 3481px;
+    background-repeat: no-repeat;
+}
+
+.content-two .right {
+    margin-left: 79px;
+    margin-top: -55px;
+}
+
+.content-two .right .right-one {
+    margin-right: 244px;
+    padding-left: 70px;
+    font-size: 48px;
+}
+
+.content-two .right .right-two {
+    margin-bottom: 28px;
+    margin-top: 31px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.content-two .right .right-three {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.btn-two {
+    color: white;
+    border: solid;
+    border-color: #8bc34a;
+    background-color: #8bc34a;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 17px 33px;
+    margin-left: 59px;
+}
+
+.banner {
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-of-banner-one {
+    height: 100px;
+    width: 90px;
+    margin: 93px 0 0 40px;
+}
+
+.list-of-banner-two {
+    height: 100px;
+    width: 90px;
+    margin: 93px 0 0 29px;
+}
+
+.list-of-banner-three {
+    height: 100px;
+    width: 90px;
+    margin: 93px 0 0 29px;
+}
+
+.list-of-banner-four {
+    height: 100px;
+    width: 90px;
+    margin: 93px 0 0 29px;
+}
+
+.list-of-banner-five {
+    height: 100px;
+    width: 90px;
+    margin: 93px 0 0 29px;
+}
+
+.list-one {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.list-two {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 7px;
+}
+
+.list-two span {
+    margin-left: 6px;
+    padding-left: 3px;
+    color: white;
+    text-align: center;
+}
+
+.banner p {
+    margin-bottom: 10px;
+}
+
+.menu-three {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-three .interface-three {
+    background-image: url("./images/interface-three.png");
+    background-repeat: no-repeat;
+    height: 371px;
+    width: 481px;
+    padding-left: 560px;
+    margin-top: 60px;
+}
+
+.menu-three .content-three {
+    margin: 15px 0 0 56px;
+}
+
+.menu-three .content-three .text-one {
+    margin-bottom: 28px;
+    margin-top: 31px;
+    font-size: 60px;
+    margin-left: 100px;
+}
+
+.menu-three .content-three .text-two {
+    margin-bottom: 28px;
+    margin-top: 31px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.menu-three .content-three .text-three {
+    width: 650px;
+    height: 38px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menu-three .content-three .text-four {
+    width: 650px;
+    height: 20px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 29px 0 17px 0;
+}
+
+.menu-three .content-three .text-five {
+    width: 650px;
+    height: 20px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 29px 0 17px 0;
+}
+
+.menu-three .btn-three {
+    color: white;
+    border: solid;
+    border-color: #8bc34a;
+    background-color: #8bc34a;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 17px 33px;
+    margin-left: 59px;
+}
+
+.menu-four {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-four .interface-four {
+    background-image: url("./images/interface-two.png");
+    background-repeat: no-repeat;
+    height: 371px;
+    width: 481px;
+    padding-left: 560px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.menu-four .content-three {
+    margin: 15px 0 0 56px;
+}
+
+.menu-four .content-four .text-one {
+    margin-bottom: 28px;
+    margin-top: 50px;
+    font-size: 60px;
+    margin-left: 100px;
+}
+
+.menu-four .content-four .text-two {
+    margin-bottom: 28px;
+    margin-top: 31px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.menu-four .content-four .text-three {
+    width: 650px;
+    height: 38px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menu-four .content-four .text-four {
+    width: 650px;
+    height: 20px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 29px 0 17px 0;
+}
+
+.menu-four .content-four .text-five {
+    width: 650px;
+    height: 20px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 29px 0 17px 0;
+}
+
+.menu-four .btn-four {
+    color: white;
+    border: solid;
+    border-color: #8bc34a;
+    background-color: #8bc34a;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 17px 33px;
+    margin-left: 59px;
+}
+
+.menu-five {
+    background-image: url("./images/interface-four.png");
+    height: 444px;
+}
