@@ -4,101 +4,108 @@ body {
     background-color: white;
 }
 
+.wrapper {
+    width: 1349px;
+}
+
 .header {
     background-image: url("./images/background-header.png");
     background-size: cover;
-    height: 700px;
-}
-
-.header-top {
-    margin-top: 0px;
-    padding: 40px 0px 0px 55px;
+    height: 615px;
 }
 
 .header ul li {
     list-style: none;
-    display: inline-block;
+}
+
+.header-top {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 .signin {
-    border: 1px solid #8bc34a;
+    border: 2px solid #8bc34a;
     border-radius: 20px;
     width: 55px;
     height: 16px;
     color: #8bc34a;
     padding: 7px;
-    margin-left: 26px;
-    font: bold 12px Roboto-Rengular;
+    margin: 24px 0px 0px 20px;
+    font: bold 12px Roboto;
     text-align: center;
 }
 
 .aboutus {
-    margin-left: 1010px;
-    font: bold 12px Roboto-Regular;
+    font: bold 12px Roboto;
+    margin: 34px 0px 0px 894px;
 }
 
 .logo {
-    background-image: url("./images/logo-hapo.png");
+    background: url("./images/logo-hapoErp-one.png") no-repeat;
     height: 125px;
-    background-repeat: no-repeat;
-    margin-left: 600px;
-    margin-top: 135px;
-    background-size: 35%;
+    margin: 124px 0px 0px 567px;
+    background-size: 25%;
 }
 
 .icon-of-header {
     display: flex;
     flex-direction: row;
-    margin-top: -25px;
+    margin-top: -50px;
 }
 
 .icon-of-header .icon-question-first {
-    margin-left: 367px;
+    margin-left: 400px;
     font-size: 49px;
 }
 
 .icon-of-header .icon-question-second {
-    margin-left: 240px;
+    margin-left: 195px;
     font-size: 49px;
 }
 
 .icon-of-header .icon-question-third {
-    margin-left: 220px;
+    margin-left: 173px;
     font-size: 49px;
 }
 
+.header-text-one {
+    display: flex;
+    flex-direction: row;
+}
+
 .better {
-    margin-left: 370px;
-    font: 30px Roboto-Light;
+    margin: -20px 0px 0px 386px;
+    font: 30px Roboto;
 }
 
 .faster {
-    margin-left: 180px;
-    font: 30px Roboto-Light;
+    margin: -20px 0px 0px 145px;
+    font: 30px Roboto;
 }
 
 .together {
-    margin-left: 165px;
-    font: 30px Roboto-Light;
+    margin: -20px 0px 0px 110px;
+    font: 30px Roboto;
 }
 
-.header-text {
-    font-size: 15px;
-    margin-left: 470px;
+.header-text-two {
+    font: 15px Roboto;
+    margin: 45px 0px 0px 470px;
 }
 
-.header-btn {
+.start-now-header {
     color: white;
     border: solid;
     border-color: #8bc34a;
-    background-color: #8bc34a;
-    width: 170px;
-    font-size: 23px;
+    box-shadow: 2px 3px 5px #D8D8D8;
+    width: 107px;
+    height: 29px;
+    font: 15px Roboto;
     border-radius: 30px;
-    padding: 2px;
-    margin-left: 600px;
-    margin-top: 30px;
-    text-align: center;
+    padding: 10px 0px 0px 30px;
+    margin: 21px 0px 0px 610px;
+    background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
 }
 
 .content-one {
@@ -107,159 +114,160 @@ body {
 }
 
 .content-one .interface-one {
-    background-image: url("./images/interface-one.png");
-    height: 371px;
+    background: url("./images/interface-one.png") no-repeat;
+    height: 355px;
     width: 555px;
-    background-repeat: no-repeat;
-    margin-left: 112px;
-    margin-top: 48px;
-    margin-bottom: 100px;
+    margin: 48px 0px 45px 148px;
 }
 
 .content-one .text {
-    margin-top: -8px;
+    margin: 48px 0px 0px 30px;
 }
 
 .content-one .text .text-one {
-    font-size: 48px;
-    margin-right: 234px;
-    padding-left: 63px;
+    font: 40px Roboto;
+    margin: 16px 0px 16px 0px;
 }
 
 .content-one .text .text-two {
-    margin-top: 31px;
-    font-size: 14px;
-    padding-left: 70px;
-    margin-left: -44px;
+    font: 14px Roboto;
+    margin: 0px 0px 20px 5px;
 }
 
 .content-one .text .text-three {
-    font-size: 13px;
-    margin-left: 25px;
+    font: 13px Roboto;
+    margin-left: 5px;
     line-height: 1.5;
 }
 
-.btn-one {
+.start-now-menu-one {
     color: white;
     border: solid;
     border-color: #8bc34a;
-    background-color: #8bc34a;
-    width: 90px;
-    font-size: 15px;
+    box-shadow: 2px 3px 5px #D8D8D8;
+    width: 107px;
+    height: 29px;
+    font: 15px Roboto;
     border-radius: 30px;
-    padding: 17px 33px;
-    margin-left: 59px;
+    padding: 10px 0px 0px 30px;
+    margin-left: 5px;
+    background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
 }
 
-.content-two {
+.menu-two {
     display: flex;
     flex-direction: row;
 }
 
-.content-two .interface-two {
-    background-image: url("./images/interface-two.png");
-    height: 379px;
-    width: 3481px;
-    background-repeat: no-repeat;
-}
-
-.content-two .right {
+.menu-two .content-two {
     margin-left: 79px;
-    margin-top: -55px;
 }
 
-.content-two .right .right-one {
-    margin-right: 244px;
-    padding-left: 70px;
-    font-size: 48px;
+.menu-two .content-two .text-one {
+    margin: 82px 0px 36px 62px;
+    font: 48px Roboto;
 }
 
-.content-two .right .right-two {
-    margin-bottom: 28px;
-    margin-top: 31px;
-    font-size: 14px;
-    margin-left: 30px;
+.menu-two .content-two .text-two {
+    margin: -25px 0px 13px 67px;
+    font: 14px Roboto;
 }
 
-.content-two .right .right-three {
-    font-size: 13px;
+.menu-two .content-two .text-three {
+    font: 13px Roboto;
+    margin: 0px 0px 30px 67px;
     line-height: 1.5;
 }
 
-.btn-two {
+.start-now-menu-two {
     color: white;
     border: solid;
     border-color: #8bc34a;
-    background-color: #8bc34a;
-    width: 90px;
-    font-size: 15px;
+    box-shadow: 2px 3px 5px #D8D8D8;
+    width: 107px;
+    height: 29px;
+    font: 15px Roboto;
     border-radius: 30px;
-    padding: 17px 33px;
-    margin-left: 59px;
+    padding: 10px 0px 0px 30px;
+    margin-left: 67px;
+    background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
+}
+
+.menu-two .interface-two {
+    background: url("./images/interface-two.png") no-repeat;
+    height: 355px;
+    width: 555px;
+    margin: 80px 0px 80px 40px;
 }
 
 .banner {
     background-image: linear-gradient(to right, #429321, #b4ec51);
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: row;
 }
 
 .list-of-banner-one {
-    height: 100px;
-    width: 90px;
-    margin: 93px 0 0 40px;
+    height: 135px;
+    width: 111px;
+    margin: 63px 0px 0px 100px;
 }
 
 .list-of-banner-two {
-    height: 100px;
-    width: 90px;
-    margin: 93px 0 0 29px;
+    height: 135px;
+    width: 111px;
+    margin: 63px 0px 0px 143px;
 }
 
 .list-of-banner-three {
-    height: 100px;
-    width: 90px;
-    margin: 93px 0 0 29px;
+    height: 135px;
+    width: 111px;
+    margin: 63px 0px 0px 143px;
 }
 
 .list-of-banner-four {
-    height: 100px;
-    width: 90px;
-    margin: 93px 0 0 29px;
+    height: 135px;
+    width: 111px;
+    margin: 63px 0px 0px 143px;
 }
 
 .list-of-banner-five {
-    height: 100px;
-    width: 90px;
-    margin: 93px 0 0 29px;
+    height: 135px;
+    width: 111px;
+    margin: 63px 0px 0px 143px;
 }
 
 .list-one {
-    height: 60px;
-    width: 60px;
+    height: 107px;
+    width: 107px;
     border: 2px solid #fff;
     border-radius: 50%;
-    margin-bottom: 5px;
 }
 
 .list-two {
-    height: 25px;
-    width: 25px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     border: 2px solid #fff;
-    margin-bottom: 7px;
+    margin: -26px 0px 0px 32px;
+    background-color: #7cb342;
 }
 
 .list-two span {
-    margin-left: 6px;
-    padding-left: 3px;
     color: white;
-    text-align: center;
+    padding-left: 15px;
+    font: 20px roboto;
 }
 
 .banner p {
-    margin-bottom: 10px;
+    color: white;
+    margin-top: 7px;
+    text-align: center;
+    font: 16px roboto;
+}
+
+.list-question {
+    margin: 40px 0px 0px 45px;
 }
 
 .menu-three {
@@ -268,71 +276,73 @@ body {
 }
 
 .menu-three .interface-three {
-    background-image: url("./images/interface-three.png");
-    background-repeat: no-repeat;
-    height: 371px;
-    width: 481px;
-    padding-left: 560px;
-    margin-top: 60px;
-}
-
-.menu-three .content-three {
-    margin: 15px 0 0 56px;
+    background: url("./images/interface-three.png") no-repeat;
+    height: 388px;
+    width: 555px;
+    margin: 90px 0px 44px -56px;
 }
 
 .menu-three .content-three .text-one {
-    margin-bottom: 28px;
-    margin-top: 31px;
-    font-size: 60px;
-    margin-left: 100px;
+    margin: 92px 0px 36px 140px;
+    font: 48px Roboto;
 }
 
 .menu-three .content-three .text-two {
-    margin-bottom: 28px;
-    margin-top: 31px;
-    font-size: 14px;
-    margin-left: 30px;
+    margin: -20px 0px 13px 140px;
+    font: 14px Roboto;
 }
 
 .menu-three .content-three .text-three {
     width: 650px;
-    height: 38px;
+    height: 30px;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font: 13px Roboto;
+    padding: 20px 0px 0px 145px;
 }
 
 .menu-three .content-three .text-four {
     width: 650px;
-    height: 20px;
+    height: 30px;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin: 29px 0 17px 0;
+    font: 13px Roboto;
+    padding: 20px 0px 0px 145px;
 }
 
 .menu-three .content-three .text-five {
     width: 650px;
-    height: 20px;
+    height: 30px;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin: 29px 0 17px 0;
+    font: 13px Roboto;
+    padding: 20px 0px 0px 145px;
 }
 
-.menu-three .btn-three {
+.start-now-menu-three {
     color: white;
     border: solid;
     border-color: #8bc34a;
-    background-color: #8bc34a;
-    width: 90px;
-    font-size: 15px;
+    box-shadow: 2px 3px 5px #D8D8D8;
+    width: 107px;
+    height: 29px;
+    font: 15px Roboto;
     border-radius: 30px;
-    padding: 17px 33px;
-    margin-left: 59px;
+    padding: 10px 0px 0px 30px;
+    margin: 145px;
+    margin: 24px 0px 0px 145px;
+    background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
+}
+
+.question-option {
+    margin-right: 17px;
+    color: #8bc34a;
 }
 
 .menu-four {
@@ -341,75 +351,331 @@ body {
 }
 
 .menu-four .interface-four {
-    background-image: url("./images/interface-two.png");
-    background-repeat: no-repeat;
+    background: url("./images/interface-two.png") no-repeat;
     height: 371px;
     width: 481px;
     padding-left: 560px;
-    margin-top: 60px;
-    margin-left: 100px;
+    margin: 60px 0px 44px 100px;
 }
 
-.menu-four .content-three {
-    margin: 15px 0 0 56px;
+.menu-four .content-four {
+    margin: 48px 0px 0px 30px;
 }
 
 .menu-four .content-four .text-one {
-    margin-bottom: 28px;
-    margin-top: 50px;
-    font-size: 60px;
-    margin-left: 100px;
+    margin: 16px 0px 16px 0px;
+    font: 40px Roboto;
 }
 
 .menu-four .content-four .text-two {
-    margin-bottom: 28px;
-    margin-top: 31px;
-    font-size: 14px;
-    margin-left: 30px;
+    font: 14px Roboto;
+    margin: 0px 0px 20px 5px;
 }
 
 .menu-four .content-four .text-three {
     width: 650px;
-    height: 38px;
+    height: 30px;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font: 13px Roboto;
+    padding-top: 10px;
 }
 
 .menu-four .content-four .text-four {
     width: 650px;
-    height: 20px;
+    height: 30px;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin: 29px 0 17px 0;
+    font: 13px Roboto;
+    padding-top: 10px;
 }
 
 .menu-four .content-four .text-five {
     width: 650px;
-    height: 20px;
+    height: 30px;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin: 29px 0 17px 0;
+    font: 13px Roboto;
+    padding-top: 10px;
 }
 
-.menu-four .btn-four {
+.start-now-menu-four {
     color: white;
     border: solid;
     border-color: #8bc34a;
-    background-color: #8bc34a;
-    width: 90px;
-    font-size: 15px;
+    box-shadow: 2px 3px 5px #D8D8D8;
+    width: 107px;
+    height: 29px;
+    font: 15px Roboto;
     border-radius: 30px;
-    padding: 17px 33px;
-    margin-left: 59px;
+    padding: 10px 0px 0px 30px;
+    margin: 24px 0px 0px 12px;
+    background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
 }
 
 .menu-five {
     background-image: url("./images/interface-four.png");
-    height: 444px;
+    height: 465px;
+}
+
+.menu-five .content-top {
+    padding: 40px 0px 0px 567px;
+    word-spacing: 5px;
+    font: 40px Roboto;
+    color: white;
+}
+
+.menu-five .background-between {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.menu-five .background-between .avartar-one {
+    background: url("./images/image-in-interface.png") no-repeat;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.menu-five .background-between .avartar-two {
+    background: url("./images/image-in-interface.png") no-repeat;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.menu-five .background-between .avartar-three {
+    background: url("./images/image-in-interface.png") no-repeat;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.menu-five .background-between .avartar-four {
+    background: url("./images/image-in-interface.png") no-repeat;
+    height: 90px;
+    width: 90px;
+    margin-left: 80px;
+    background-size: cover;
+}
+
+.menu-five .background-between .avartar-five {
+    background: url("./images/image-in-interface.png") no-repeat;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.menu-five .background-between .avartar-six {
+    background: url("./images/image-in-interface.png") no-repeat;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.menu-five .background-between .avartar-seven {
+    background: url("./images/image-in-interface.png") no-repeat;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.menu-five .background-between .avartar-eight {
+    background: url("./images/image-in-interface.png") no-repeat;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.menu-five .text-avartar {
+    display: flex;
+    flex-direction: row;
+    font: 14px Roboto;
+    color: white;
+    opacity: 0.7;
+}
+
+.menu-five .text-avartar .text-avartar-first {
+    margin-left: 90px;
+}
+
+.menu-five .text-avartar .text-avartar-two {
+    margin-left: 100px;
+}
+
+.menu-five .text-avartar .text-avartar-three {
+    margin-left: 105px;
+}
+
+.menu-five .text-avartar .text-avartar-four {
+    margin-left: 105px;
+}
+
+.menu-five .text-avartar .text-avartar-five {
+    margin-left: 105px;
+}
+
+.menu-five .text-avartar .text-avartar-six {
+    margin-left: 105px;
+}
+
+.menu-five .text-avartar .text-avartar-seven {
+    margin-left: 105px;
+}
+
+.menu-five .text-avartar .text-avartar-eight {
+    margin-left: 105px;
+}
+
+.menu-five .text-second p {
+    color: white;
+    opacity: 0.7;
+    font: 15px Roboto;
+    line-height: 1.5;
+    margin: 0px 0px 0px 356px;
+}
+
+.menu-five .question-our-customers-first {
+    margin-left: 300px;
+    color: white;
+    opacity: 0.7;
+    font-size: 45px;
+}
+
+.menu-five .question-our-customers-second {
+    margin: -45px 0px 0px 993px;
+    color: white;
+    opacity: 0.7;
+    font-size: 45px;
+}
+
+.menu-six {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-six .text {
+    margin-left: 79px;
+}
+
+.menu-six .text .text-one {
+    margin: 82px 0px 36px 62px;
+    font: 48px Roboto;
+}
+
+.menu-six .text .text-two {
+    margin: -25px 0px 13px 67px;
+    font: 14px Roboto;
+}
+
+.menu-six .text .text-three {
+    font: 13px Roboto;
+    margin: 0px 0px 30px 67px;
+    line-height: 1.5;
+}
+
+.start-now-menu-six {
+    color: white;
+    border: solid;
+    border-color: #8bc34a;
+    box-shadow: 2px 3px 5px #D8D8D8;
+    width: 107px;
+    height: 29px;
+    font: 15px Roboto;
+    border-radius: 30px;
+    padding: 10px 0px 0px 30px;
+    margin-left: 67px;
+    background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
+}
+
+.menu-six .interface-six {
+    background: url("./images/interface-two.png") no-repeat;
+    height: 355px;
+    width: 555px;
+    margin: 80px 0px 80px 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #283238;
+    height: 180px;
+}
+
+.footer .content-footer-one {
+    background: url("./images/logo-hapoErp-one.png") no-repeat;
+    height: 25px;
+    width: 95px;
+    margin: 52px 0px 0px 145px;
+}
+
+.footer .content-footer-one p {
+    font: 14px Roboto;
+    color: white;
+    margin-top: 70px;
+}
+
+.footer .content-footer-two {
+    margin: 28px 0px 0px 70px;
+    color: #8bc34a;
+    font: 17px Roboto;
+}
+
+.footer .content-footer-two p {
+    font: 14px Roboto;
+    color: white;
+    margin-top: 36px;
+}
+
+.footer .content-footer-three p {
+    font: 14px Roboto;
+    color: white;
+    margin-top: 36px;
+}
+
+.footer .content-footer-three {
+    margin: 28px 0px 0px 70px;
+    color: #8bc34a;
+    font: 17px Roboto;
+}
+
+.footer .content-footer-four p {
+    font: 14px Roboto;
+    color: white;
+    margin-top: 36px;
+}
+
+.footer .content-footer-four {
+    margin: 28px 0px 0px 70px;
+    color: #8bc34a;
+    font: 17px Roboto;
+}
+
+.footer .content-footer-five p {
+    font: 14px Roboto;
+    color: white;
+    margin-top: 36px;
+}
+
+.footer .content-footer-five {
+    margin: 28px 0px 0px 70px;
+    color: #8bc34a;
+    font: 17px Roboto;
+}
+
+.icon-footer {
+    display: flex;
+    flex-direction: row;
+    margin: 105px 0px 0px 95px;
+}
+
+.question-footer {
+    letter-spacing: 40px;
 }
