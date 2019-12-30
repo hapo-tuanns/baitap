@@ -2,16 +2,18 @@ body {
     padding: 0;
     margin: 0 auto;
     background-color: white;
+    width: 100%;
 }
 
 .wrapper {
-    width: 1349px;
+    width: 100%;
+    height: 100%;
 }
 
 .header {
-    background-image: url("./images/background-header.png");
+    background: url("./images/background-header.png") no-repeat;
     background-size: cover;
-    height: 615px;
+    height: 633px;
 }
 
 .header ul li {
@@ -24,49 +26,49 @@ body {
     flex-direction: row;
 }
 
-.signin {
+.sign-in {
     border: 2px solid #8bc34a;
     border-radius: 20px;
-    width: 55px;
-    height: 16px;
+    width: 76px;
+    height: 37px;
     color: #8bc34a;
-    padding: 7px;
+    padding: 9px;
     margin: 24px 0px 0px 20px;
     font: bold 12px Roboto;
     text-align: center;
 }
 
-.aboutus {
+.about-us {
     font: bold 12px Roboto;
-    margin: 34px 0px 0px 894px;
+    margin: 34px 0px 0px 920px;
 }
 
 .logo {
     background: url("./images/logo-hapoErp-one.png") no-repeat;
-    height: 125px;
-    margin: 124px 0px 0px 567px;
+    height: 40px;
+    margin: 124px 0px 0px 602px;
     background-size: 25%;
 }
 
 .icon-of-header {
     display: flex;
     flex-direction: row;
-    margin-top: -50px;
+    margin-top: 44px;
 }
 
-.icon-of-header .icon-question-first {
+.icon-of-header .ti-gift {
     margin-left: 400px;
-    font-size: 49px;
+    font-size: 40px;
 }
 
-.icon-of-header .icon-question-second {
-    margin-left: 195px;
-    font-size: 49px;
+.icon-of-header .ti-alarm-clock {
+    margin-left: 175px;
+    font-size: 40px;
 }
 
-.icon-of-header .icon-question-third {
-    margin-left: 173px;
-    font-size: 49px;
+.icon-of-header .ti-thumb-up {
+    margin-left: 160px;
+    font-size: 40px;
 }
 
 .header-text-one {
@@ -75,42 +77,43 @@ body {
 }
 
 .better {
-    margin: -20px 0px 0px 386px;
-    font: 30px Roboto;
+    margin: -7px 0px 0px 386px;
+    font: 27px Roboto;
 }
 
 .faster {
-    margin: -20px 0px 0px 145px;
-    font: 30px Roboto;
+    margin: -7px 0px 0px 145px;
+    font: 27px Roboto;
 }
 
 .together {
-    margin: -20px 0px 0px 110px;
-    font: 30px Roboto;
+    margin: -7px 0px 0px 115px;
+    font: 27px Roboto;
 }
 
 .header-text-two {
-    font: 15px Roboto;
-    margin: 45px 0px 0px 470px;
+    font: 13px Roboto;
+    margin: 45px 0px 0px 465px;
 }
 
 .start-now-header {
     color: white;
-    border: solid;
+    border: 1px solid;
     border-color: #8bc34a;
     box-shadow: 2px 3px 5px #D8D8D8;
-    width: 107px;
-    height: 29px;
+    width: 139px;
+    height: 42px;
     font: 15px Roboto;
     border-radius: 30px;
-    padding: 10px 0px 0px 30px;
-    margin: 21px 0px 0px 610px;
+    padding: 9px 0px 0px 27px;
+    margin: 21px 0px 0px 600px;
     background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
 }
 
 .content-one {
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.3);
 }
 
 .content-one .interface-one {
@@ -129,6 +132,11 @@ body {
     margin: 16px 0px 16px 0px;
 }
 
+.ti-bookmark-alt {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
 .content-one .text .text-two {
     font: 14px Roboto;
     margin: 0px 0px 20px 5px;
@@ -142,11 +150,11 @@ body {
 
 .start-now-menu-one {
     color: white;
-    border: solid;
+    border: 1px solid;
     border-color: #8bc34a;
     box-shadow: 2px 3px 5px #D8D8D8;
-    width: 107px;
-    height: 29px;
+    width: 139px;
+    height: 42px;
     font: 15px Roboto;
     border-radius: 30px;
     padding: 10px 0px 0px 30px;
@@ -164,7 +172,7 @@ body {
 }
 
 .menu-two .content-two .text-one {
-    margin: 82px 0px 36px 62px;
+    margin: 82px 0px 36px 65px;
     font: 48px Roboto;
 }
 
@@ -181,11 +189,11 @@ body {
 
 .start-now-menu-two {
     color: white;
-    border: solid;
+    border: 1px solid;
     border-color: #8bc34a;
     box-shadow: 2px 3px 5px #D8D8D8;
-    width: 107px;
-    height: 29px;
+    width: 139px;
+    height: 42px;
     font: 15px Roboto;
     border-radius: 30px;
     padding: 10px 0px 0px 30px;
@@ -200,11 +208,17 @@ body {
     margin: 80px 0px 80px 40px;
 }
 
+.menu-two .content-two .text-one .ti-write {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
 .banner {
     background-image: linear-gradient(to right, #429321, #b4ec51);
     height: 300px;
     display: flex;
     flex-direction: row;
+    color: white;
 }
 
 .list-of-banner-one {
@@ -273,6 +287,7 @@ body {
 .menu-three {
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.3);
 }
 
 .menu-three .interface-three {
