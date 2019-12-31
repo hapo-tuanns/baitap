@@ -1,5 +1,4 @@
 body {
-    padding: 0;
     margin: 0 auto;
     background-color: white;
     width: 100%;
@@ -50,10 +49,8 @@ body {
 }
 
 img {
-    vertical-align: middle;
-    border-style: none;
-    width: 212px;
-    height: 70px;
+    width: 213px;
+    height: 71px;
 }
 
 .header .icon-of-header {
@@ -85,6 +82,11 @@ img {
 }
 
 .start-now-header {
+    display: flex;
+    justify-content: center;
+}
+
+.start-now-header a {
     color: white;
     border: 1px solid;
     border-color: #8bc34a;
@@ -94,9 +96,10 @@ img {
     font: 16px Roboto;
     border-radius: 30px;
     padding: 9pt 0pt 0pt 27pt;
-    margin: 21px 0px 0px 600px;
+    margin-top: 30px;
     background: #8bc34a linear-gradient(to right, #429321, #b4ec51);
     letter-spacing: 0.33pt;
+    text-decoration: none;
 }
 
 .content-one {
